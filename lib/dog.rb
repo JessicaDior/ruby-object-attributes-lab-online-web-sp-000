@@ -8,7 +8,6 @@ def name
   @name
 end
 
-name.instance_variable_set(:@name, name)
 
 def breed(breed)
   @breed = breed
