@@ -1,7 +1,11 @@
 class Dog
 
-  dog.instance_variable_set(:@name)
+def name
+  @name
+end
 
-dog.instance_variable_set(:@breed)
+def breed
+  @breed
+end
 
 end
